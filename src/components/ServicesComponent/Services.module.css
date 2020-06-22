@@ -1,0 +1,42 @@
+.h3,
+.h4,
+.p {
+  color: white;
+}
+
+.h3,
+.h4 {
+  font-weight: bold;
+}
+
+.p {
+  width: 70%;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.serviceCard {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgDiv {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

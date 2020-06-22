@@ -1,0 +1,181 @@
+.gallery_sidebar {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://uploads.codesandbox.io/uploads/user/ec79d9b9-7a8b-4ce1-913f-928e81b96307/nI7Z-bg2.jpg ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.sidebar_content {
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery_logo {
+  background-image: url("https://uploads.codesandbox.io/uploads/user/ec79d9b9-7a8b-4ce1-913f-928e81b96307/-VMy-s.png ");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 3rem;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.expert {
+  font-family: Helvetica;
+  color: gray;
+  font-weight: bolder;
+}
+
+.rule_divide {
+  background-color: white;
+  height: 1px;
+}
+
+.sud_info {
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgray;
+  letter-spacing: 1px;
+  line-height: 1.3rem;
+  font-size: 1rem;
+}
+
+.gallery_contact {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 45px;
+  width: 130px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.gallery_contact:hover {
+  transition: transform 0.05s;
+  transform: scale(1.1);
+}
+
+.gallery_social {
+  background-color: black;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_holder {
+  display: flex;
+  flex-direction: row;
+}
+
+.social_icon > a {
+  letter-spacing: 40px;
+}
+
+@media only screen and (min-width: 100px) {
+  .gallery_sidebar {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .sidebar_content {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .empty {
+    height: 15vh;
+  }
+
+  .name {
+    margin-top: 7vh;
+  }
+
+  .expert {
+    font-size: 1.1rem;
+    margin-top: -20px;
+  }
+
+  .rule_divide {
+    margin-top: 4vh;
+  }
+
+  .sud_info {
+    margin-top: 5vh;
+  }
+
+  .gallery_contact {
+    margin-top: 4vh;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .gallery_sidebar {
+    width: 40%;
+    height: 100%;
+  }
+
+  .sidebar_content {
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .empty {
+    height: 35%;
+  }
+
+  .name {
+    margin-top: 70px;
+    font-size: 2.5rem;
+  }
+
+  .expert {
+    font-size: 1.1rem;
+    margin-top: -20px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .gallery_sidebar {
+    width: 35%;
+    height: 100%;
+  }
+
+  .sidebar_content {
+    padding-left: 10%;
+    padding-right: 30px;
+  }
+
+  .empty {
+    height: 25%;
+  }
+
+  .name {
+    margin-top: 70px;
+  }
+
+  .expert {
+    font-size: 1.1rem;
+    margin-top: -25px;
+  }
+
+  .rule_divide {
+    margin-top: 35px;
+  }
+
+  .sud_info {
+    margin-top: 50px;
+  }
+
+  .gallery_contact {
+    margin-top: 20px;
+  }
+}

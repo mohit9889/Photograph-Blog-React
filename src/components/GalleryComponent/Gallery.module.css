@@ -1,0 +1,16 @@
+.h3 {
+  color: white !important;
+  font-weight: bold;
+}
+
+.gallery {
+  margin: 50px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photos {
+  margin-top: 20px;
+}

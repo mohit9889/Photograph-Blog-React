@@ -1,0 +1,79 @@
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: "Montserrat";
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+._src_screens_Home_Home_module__container {
+  overflow: hidden;
+}
+
+.navbar,
+.navbar-collapse {
+  background-color: #131111;
+}
+
+.react-photo-gallery--gallery div {
+  flex-flow: nowrap !important;
+}
+
+.MuiGrid-spacing-xs-3 {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0px;
+  }
+
+  .navbar-nav {
+    height: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+
+  .makeStyles-gridList-2 {
+    width: 500px !important;
+  }
+  .makeStyles-gridList-105 {
+    width: 500px !important;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .makeStyles-gridList-2 {
+    width: 700px !important;
+  }
+
+  .makeStyles-gridList-105 {
+    width: 700px !important;
+  }
+
+  .MuiGridListTile-root {
+    height: 300px !important;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .makeStyles-gridList-2 {
+    width: 1020px !important;
+    height: calc(100vh - 100px) !important;
+  }
+
+  .makeStyles-gridList-105 {
+    width: 1020px !important;
+    height: calc(100vh - 100px) !important;
+  }
+
+  .MuiGridListTile-root {
+    height: 300px !important;
+  }
+}

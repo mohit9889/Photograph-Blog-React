@@ -1,0 +1,36 @@
+/* @font-face {
+  font-family: "Lucida";
+  src: url("../../fonts/Lucida");
+} */
+
+.navbar {
+  z-index: 20;
+  height: 50px;
+  box-shadow: 0 5px 6px -6px rgb(0, 0, 0);
+}
+
+.navbarbrand {
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+
+.navlink {
+  opacity: 1;
+}
+
+.navlink:hover {
+  color: white !important;
+}
+.active {
+  color: white !important;
+  border-bottom: 2px solid #ffa600;
+  font-weight: bold !important;
+}
+
+.circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ffa600;
+}
